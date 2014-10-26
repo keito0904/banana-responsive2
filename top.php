@@ -20,7 +20,7 @@ Template Name:top
   <nav class="top-nav">
     <ul>
       <li class="logo">
-        <a href="" class="nav-logo">ロゴ</a>
+        <a href="" class="nav-logo"><img src="<?php bloginfo('template_url'); ?>/img/logo.png"></a>
       </li>
       <li class="list-border"></li>
       <li>
