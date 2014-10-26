@@ -12,5 +12,7 @@ Template Name:blog
 <link rel="stylesheet"  href="<?php bloginfo('template_url'); ?>/css/blog.css">
 </head>
 <body>
+  <?php get_template_part('layouts/header') ?>
+  <?php get_template_part('layouts/footer') ?>
 </body>
 </html>
