@@ -52,7 +52,8 @@ Template Name:blog
           <div class="clear"></div>
         </div>
         <div class="right-content">
-          right
+          <?php dynamic_sidebar(); ?>
+          <div class="clear"></div>
         </div>
         <div class="clear"></div>
       </div>
