@@ -118,6 +118,10 @@
   font-size: 18px;
   padding: 6px 17px;
 }
+.title-back h3{
+  font-size: 16px;
+  padding: 6px 17px;
+}
 .box-content{
   padding: 20px 17px;
 }
@@ -139,4 +143,13 @@
   border-radius: 6px;
   font-size: 12px;
   margin: 0px 10px;
+}
+.box-small{
+  width: 330px;
+  height: 350px;
+  margin-bottom: 40px;
+}
+.box-small .box-content img{
+  width: 100%;
+  border-radius: 4px;
 }
