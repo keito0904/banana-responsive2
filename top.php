@@ -18,7 +18,7 @@ Template Name:top
     </div>
   </div>
   <nav class="top-nav">
-    <ul>
+    <ul class="content">
       <li class="logo">
         <a href="<?php bloginfo('url'); ?>" class="nav-logo"><img src="<?php bloginfo('template_url'); ?>/img/logo.png"></a>
       </li>
