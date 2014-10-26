@@ -38,15 +38,21 @@ Template Name:service
           </div>
           <div class="box-content">
             <h3>おもなサービス</h3>
-            <img src="<?php bloginfo('template_url'); ?>/img/service.png">
-            <div class="service-name">
-              BANANA
+            <div class="media">
+              <div class="image">
+                <img src="<?php bloginfo('template_url'); ?>/img/service.png">
+              </div>
+              <div class="media-content">
+                <div class="service-name">
+                  BANANA
+                </div>
+                <p>
+                  BANANAは我社が展開するファッションブランド。
+                  <br>
+                  バナナのグッズも多数販売してります。
+                </p>
+              </div>
             </div>
-            <p>
-              BANANAは我社が展開するファッションブランド。
-              <br>
-              バナナのグッズも多数販売してります。
-            </p>
           </div>
         </div>
       </div>
