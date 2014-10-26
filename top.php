@@ -24,19 +24,19 @@ Template Name:top
       </li>
       <li class="list-border"></li>
       <li>
-        <a href="<?php bloginfo('url'); ?>" class="home nav-link">ホーム</a>
+        <a href="<?php bloginfo('url'); ?>" class="home nav-link <?php if ( is_page('top') ) { echo 'active'; } ?>">ホーム</a>
       </li>
       <li class="list-border"></li>
       <li>
-        <a href="<?php bloginfo('url'); ?>/about" class="about nav-link">組織概要</a>
+        <a href="<?php bloginfo('url'); ?>/about" class="about nav-link <?php if ( is_page('about') ) { echo 'active'; } ?>">組織概要</a>
       </li>
       <li class="list-border"></li>
       <li>
-        <a href="<?php bloginfo('url'); ?>/service" class="service nav-link">事業内容</a>
+        <a href="<?php bloginfo('url'); ?>/service" class="service nav-link <?php if ( is_page('service') ) { echo 'active'; } ?>">事業内容</a>
       </li>
       <li class="list-border"></li>
       <li>
-        <a href="<?php bloginfo('url'); ?>/blog" class="blog nav-link">ブログ</a>
+        <a href="<?php bloginfo('url'); ?>/blog" class="blog nav-link <?php if ( is_page('blog') ) { echo 'active'; } ?>">ブログ</a>
       </li>
       <li class="list-border"></li>
       <div class="clear"></div>
