@@ -11,6 +11,6 @@ Template Name:service
 <link rel="stylesheet"  href="<?php bloginfo('stylesheet_url'); ?>">
 <link rel="stylesheet"  href="<?php bloginfo('template_url'); ?>/css/service.css">
 </head>
-<body>
+<body id="service">
 </body>
 </html>
