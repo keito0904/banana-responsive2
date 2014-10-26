@@ -24,13 +24,13 @@ Template Name:about
         <nav class="sidebar-nav">
           <ul>
             <li>
-              <a href="" class="nav-link">
+              <a href="#ideal" class="nav-link">
                 <img src="<?php bloginfo('template_url'); ?>/img/banana.png">
                 経営理念
               </a>
             </li>
             <li>
-              <a href="" class="nav-link">
+              <a href="#aboutus" class="nav-link">
                 <img src="<?php bloginfo('template_url'); ?>/img/banana.png">
                 会社情報
               </a>

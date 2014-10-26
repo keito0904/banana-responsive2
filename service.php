@@ -24,7 +24,7 @@ Template Name:service
         <nav class="sidebar-nav">
           <ul>
             <li>
-              <a href="" class="nav-link">
+              <a href="#service-info" class="nav-link">
                 <img src="<?php bloginfo('template_url'); ?>/img/banana.png">
                 事業内容
               </a>
