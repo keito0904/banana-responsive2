@@ -32,7 +32,23 @@ Template Name:service
           </ul>
       </div>
       <div class="right-content main">
-        right
+        <div class="box box-large" id="service-info">
+          <div class="title-back">
+            <h2 class="title">事業内容</h2>
+          </div>
+          <div class="box-content">
+            <h3>おもなサービス</h3>
+            <img src="<?php bloginfo('template_url'); ?>/img/service.png">
+            <div class="service-name">
+              BANANA
+            </div>
+            <p>
+              BANANAは我社が展開するファッションブランド。
+              <br>
+              バナナのグッズも多数販売してります。
+            </p>
+          </div>
+        </div>
       </div>
       <div class="clear"></div>
     </div>
