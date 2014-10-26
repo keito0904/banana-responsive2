@@ -47,6 +47,26 @@ Template Name:blog
               </div>
             </a>
           </div>
+          <div class="box box-small">
+            <a href="" class="blog-link">
+              <img src="<?php bloginfo('template_url'); ?>/img/blog-banana.png" class="clip">
+              <div class="blog-image" style="background-image: url(<?php bloginfo('template_url'); ?>/img/blog.jpg)">
+                <div class="date-back">
+                  <div class="date">
+                    2014年1月1日
+                  </div>
+                </div>
+              </div>
+              <div class="blog-inner">
+                <div class="title">
+                  タイトル
+                </div>
+                <p class="text">
+                  テキスト
+                </p>
+              </div>
+            </a>
+          </div>
           <div class="clear"></div>
         </div>
         <div class="right-content">
