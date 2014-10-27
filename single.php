@@ -7,6 +7,6 @@
 <link rel="stylesheet"  href="<?php bloginfo('template_url'); ?>/css/blog.css">
 <link rel="stylesheet"  href="<?php bloginfo('template_url'); ?>/css/single.css">
 </head>
-<body>
+<body id="single">
 </body>
 </html>

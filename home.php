@@ -11,7 +11,7 @@ Template Name:blog
 <link rel="stylesheet"  href="<?php bloginfo('stylesheet_url'); ?>">
 <link rel="stylesheet"  href="<?php bloginfo('template_url'); ?>/css/blog.css">
 </head>
-<body>
+<body id="blog">
   <?php get_template_part('layouts/header') ?>
   <div class="sub-header">
     <div class="content">
