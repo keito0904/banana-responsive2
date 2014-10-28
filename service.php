@@ -7,9 +7,14 @@ Template Name:service
 <html>
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <title><?php bloginfo('name'); ?></title>
+<link rel="stylesheet"  href="<?php bloginfo('template_url'); ?>/css/dlmenu.css">
 <link rel="stylesheet"  href="<?php bloginfo('stylesheet_url'); ?>">
 <link rel="stylesheet"  href="<?php bloginfo('template_url'); ?>/css/service.css">
+<script src="<?php bloginfo('template_url'); ?>/js/jquery-2.1.1.min.js"></script>
+<script src="<?php bloginfo('template_url'); ?>/js/modernizr.custom.js"></script>
+<script src="<?php bloginfo('template_url'); ?>/js/jquery.dlmenu.js"></script>
 </head>
 <body id="service">
   <?php get_template_part('layouts/header') ?>
