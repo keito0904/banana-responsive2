@@ -130,3 +130,30 @@
   color: #90bc35;
   font-weight: bold;
 }
+@media(max-width: 1000px){
+  .main-content .left-content{
+    width: 70%;
+  }
+  .main-content .right-content{
+    width: 26%;
+    margin-left: 0px;
+    float: right;
+  }
+  .blog-content .box{
+    width: 48%;
+    margin-right: 0px;
+  }
+  .blog-content .box:nth-child(2n){
+    float: right;
+  }
+  .cat-item{
+    width: 50%;
+    margin-right: 0px;
+    box-sizing: border-box;
+    padding-right: 6px;
+  }
+  .cat-item:nth-child(2n){
+    padding-left: 6px;
+    padding-right: 0px;
+  }
+}
