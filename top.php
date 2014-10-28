@@ -9,6 +9,7 @@ Template Name:top
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <title><?php bloginfo('name'); ?></title>
+<link rel="stylesheet"  href="<?php bloginfo('template_url'); ?>/css/dlmenu.css">
 <link rel="stylesheet"  href="<?php bloginfo('stylesheet_url'); ?>">
 <link rel="stylesheet"  href="<?php bloginfo('template_url'); ?>/css/top.css">
 <script src="<?php bloginfo('template_url'); ?>/js/jquery-2.1.1.min.js"></script>

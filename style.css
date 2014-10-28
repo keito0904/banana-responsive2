@@ -234,3 +234,19 @@ ul{
   bottom: 10px;
   position: absolute;
 }
+@media(max-width: 1000px){
+  .content{
+    width: auto;
+  }
+  .top-nav ul{
+    width: 100%;
+  }
+  .main-content{
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .footer .footer-info{
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
