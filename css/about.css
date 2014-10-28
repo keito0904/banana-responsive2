@@ -24,3 +24,16 @@
   padding: 15px 0px;
   border-bottom: 1px dashed #95c530;
 }
+@media(max-width: 1000px){
+  .sub-header h1{
+    padding-left: 30px;
+  }
+  .main-content .left-content.sidebar{
+    width: 26%;
+  }
+  .main-content .right-content.main{
+    width: 70%;
+    margin-left: 0px;
+    float: right;
+  }
+}
