@@ -33,3 +33,11 @@
 .media-content p{
   padding: 0px 10px;
 }
+@media(max-width: 500px){
+  .media .image{
+    float: none;
+    margin-right: 0px;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+}
