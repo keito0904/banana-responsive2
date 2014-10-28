@@ -48,3 +48,8 @@
     width: 100%;
   }
 }
+@media(max-width: 600px){
+  .sub-header{
+    margin-top: 60px;
+  }
+}
