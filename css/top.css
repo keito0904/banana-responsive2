@@ -120,3 +120,22 @@
     height: auto;
   }
 }
+@media(max-width: 500px){
+  .box-content ul li{
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+  }
+  .box-content ul li .date{
+    font-size: 12px;
+  }
+  .box-content ul li .tag a{
+    font-size: 11px;
+  }
+  .box-content ul li .text{
+    display: block;
+    margin-top: 8px;
+  }
+  #top .right-content .ad{
+    float: none;
+    width: 100%;
+  }
