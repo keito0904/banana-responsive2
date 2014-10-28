@@ -171,3 +171,8 @@
     padding: 8px !important;
   }
 }
+@media(max-width: 600px){
+  .main-content{
+    padding: 30px 20px;
+  }
+}
