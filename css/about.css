@@ -37,3 +37,14 @@
     float: right;
   }
 }
+@media(max-width: 850px){
+  .main-content .left-content.sidebar{
+    float: none;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .main-content .right-content.main{
+    float: none;
+    width: 100%;
+  }
+}
