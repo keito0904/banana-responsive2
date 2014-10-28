@@ -283,9 +283,20 @@ ul{
   .top-nav ul{
     width: 100%;
   }
+  .sub-header h1{
+    padding-left: 30px;
+  }
   .main-content{
     padding-left: 30px;
     padding-right: 30px;
+  }
+  .main-content .left-content.sidebar{
+    width: 26%;
+  }
+  .main-content .right-content.main{
+    width: 70%;
+    margin-left: 0px;
+    float: right;
   }
   .footer .footer-info{
     padding-left: 30px;
@@ -298,6 +309,15 @@ ul{
   }
   #dl-menu{
     display: block;
+  }
+  .main-content .left-content.sidebar{
+    float: none;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .main-content .right-content.main{
+    float: none;
+    width: 100%;
   }
 }
 @media(max-width: 600px){
@@ -312,6 +332,9 @@ ul{
     top: 0;
     box-shadow: 0px 2px 3px rgba(52,85,43,0.8);
     z-index: 9999;
+  }
+  .sub-header{
+    margin-top: 60px;
   }
   .footer{
     height: auto;
@@ -341,5 +364,11 @@ ul{
   .dl-menuwrapper button{
     width: 40px;
     height: 40px;
+  }
+  .sub-header{
+    height: 130px;
+  }
+  .sub-header h1{
+    font-size: 24px;
   }
 }
