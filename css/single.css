@@ -65,3 +65,19 @@
     width: 100%;
   }
 }
+@media(max-width: 500px){
+  .blog-inner{
+    padding: 30px 20px;
+  }
+  .blog-inner .title{
+    font-size: 25px;
+    padding-bottom: 15px;
+  }
+  .twitter-facebook{
+    float: none;
+    margin-top: 15px;
+  }
+  .blog-image{
+    height: 150px;
+  }
+}
