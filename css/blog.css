@@ -176,3 +176,22 @@
     padding: 30px 20px;
   }
 }
+@media(max-width: 500px){
+  .top-word{
+    font-size: 14px;
+  }
+  .top-word img{
+    width: 20px;
+  }
+  .blog-content .box{
+    width: 100%;
+    height: auto;
+  }
+  .cat-item{
+    width: 50%;
+  }
+  .category-name{
+    font-size: 16px;
+    padding: 20px;
+  }
+}
