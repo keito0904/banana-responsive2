@@ -60,3 +60,8 @@
   width: 100px;
   display: inline-block;
 }
+@media(max-width: 1000px){
+  .blog-content .box{
+    width: 100%;
+  }
+}
