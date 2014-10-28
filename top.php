@@ -11,6 +11,7 @@ Template Name:top
 <title><?php bloginfo('name'); ?></title>
 <link rel="stylesheet"  href="<?php bloginfo('stylesheet_url'); ?>">
 <link rel="stylesheet"  href="<?php bloginfo('template_url'); ?>/css/top.css">
+<script src="<?php bloginfo('template_url'); ?>/js/jquery-2.1.1.min.js"></script>
 </head>
 <body id="top">
   <div class="top-head">
