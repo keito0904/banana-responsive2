@@ -85,3 +85,21 @@
     float: right;
   }
 }
+@media(max-width: 850px){
+  #top .left-content{
+    width: 100%;
+  }
+  #top .left-content .box-small{
+    height: 390px;
+  }
+  #top .right-content{
+    width: 100%;
+  }
+  #top .right-content .ad{
+    width: 48%;
+    float: left;
+  }
+  #top .right-content .ad:nth-child(2n){
+    float: right;
+  }
+}
