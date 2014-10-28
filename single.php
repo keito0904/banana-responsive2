@@ -3,9 +3,14 @@
 <head>
 <meta charset="UTF-8">
 <title><?php bloginfo('name'); ?></title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link rel="stylesheet"  href="<?php bloginfo('template_url'); ?>/css/dlmenu.css">
 <link rel="stylesheet"  href="<?php bloginfo('stylesheet_url'); ?>">
 <link rel="stylesheet"  href="<?php bloginfo('template_url'); ?>/css/blog.css">
 <link rel="stylesheet"  href="<?php bloginfo('template_url'); ?>/css/single.css">
+<script src="<?php bloginfo('template_url'); ?>/js/jquery-2.1.1.min.js"></script>
+<script src="<?php bloginfo('template_url'); ?>/js/modernizr.custom.js"></script>
+<script src="<?php bloginfo('template_url'); ?>/js/jquery.dlmenu.js"></script>
 </head>
 <body id="single">
   <?php get_template_part('layouts/header') ?>
