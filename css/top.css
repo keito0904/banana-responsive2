@@ -103,3 +103,20 @@
     float: right;
   }
 }
+@media(max-width: 600px){
+  .top-head{
+    margin-top: 60px;
+    height: 200px;
+  }
+  .top-head h1{
+    font-size: 38px;
+  }
+  .newsfeed{
+    margin-bottom: 40px;
+  }
+  #top .left-content .box-small{
+    float: none;
+    width: 100%;
+    height: auto;
+  }
+}
